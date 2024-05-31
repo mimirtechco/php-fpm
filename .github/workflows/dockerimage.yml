@@ -22,7 +22,7 @@ jobs:
         uses: docker/metadata-action@v5
         with:
           images:
-            laradock/php-fpm
+            mimirtechco/php-fpm
           flavor: |
             suffix=-${{ matrix.php_version }}
           tags: |
